@@ -1,8 +1,15 @@
 [package]
 name = "crate_downloader"
+description = "This project allows you to download source code of a single Rust crate from crates.io or download the entire crates.io to local. We provide both library and runnable codes to do so."
 version = "0.1.0"
 edition = "2021"
 default-run = "crate_downloader"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ZJU-SEC/Cargo-Ecosystem-Monitor/tree/master/Code/crate_downloader"
+readme = "README.md"
+homepage = "https://github.com/Cargo-Ecosystem-Monitor"
+keywords = ["download", "ecosystem"]
+categories = ["cargo-ecosystem-monitor"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
