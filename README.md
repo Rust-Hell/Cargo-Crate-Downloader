@@ -1,5 +1,6 @@
 # Cargo-Crate-Downloader
 
+This project allows you to download source code of a single Rust crate from crates.io or download the entire crates.io to local. We provide both library and runnable codes to do so.
 
 ### Download the entire crates.io
 
