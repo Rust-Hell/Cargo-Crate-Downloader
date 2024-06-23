@@ -8,8 +8,7 @@ use simplelog::*;
 
 use crate_downloader::{deal_with_crate, fetch_crate};
 
-// const CRATESDIR: &str = "./download_one";
-const CRATESDIR: &str = "/home/loancold/Projects/RustCLA/ABIChecker/tmp/download_one";
+const CRATESDIR: &str = "./download_one";
 
 
 fn main() {
