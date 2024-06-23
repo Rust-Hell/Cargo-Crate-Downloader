@@ -3,7 +3,6 @@ use std::io;
 use std::path::Path;
 use std::process::{Command, Output};
 
-
 use anyhow::{anyhow, Result};
 use downloader::{Download, Downloader};
 
@@ -29,6 +28,7 @@ pub fn fetch_crate(downloader: &mut Downloader, store_path: &str, name: &str, ve
     return Ok(());
 }
 
+// Uncompress the downloaded crate
 pub fn deal_with_crate(store_path: &str, name: &str, version: &str) -> io::Result<Output> {
     // Decompress
     Command::new("tar")
